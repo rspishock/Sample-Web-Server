@@ -1,5 +1,7 @@
 # Home Servers
 
+# NOTE: Recipes may appear as standalone .rb files but will be added to a cookbook in the future.
+
 ### Description
 This repo contains Chef recipes and terraform files for the provisioning, configuration, and deployment of a simple web server setup.
 
