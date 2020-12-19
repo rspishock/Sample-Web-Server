@@ -31,6 +31,8 @@ I may include Chef recipes and Terraform files for redundant database servers.
     - Test Kitchen version: 2.7.0
     - Foodcritic version: 16.3.0
     - Cookstyle version: 5.23.0
+    
+- Terraform
 
 
 ##### Github repo
