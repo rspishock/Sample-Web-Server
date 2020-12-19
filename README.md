@@ -42,3 +42,8 @@ WIP
 ### Server (web)
 ### myhaproxy
 ### Server (database)
+
+## Scripts
+### Bash
+#### firewall.sh
+A Bash script to configure the main iptables firewall ruleset for the network.
