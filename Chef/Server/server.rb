@@ -23,6 +23,10 @@ package 'vim-enhanced' do
 	action :install
 end
 
+package 'syslog' do
+	action :install
+end
+
 
 # Files
 template '/var/www/html/index.html' do
@@ -32,7 +36,7 @@ template '/var/www/html/index.html' do
 end
 
 file '/etc/motd' do
-    content "ALERT! You are entering into a secured area! Your IP address, login time, and username has been recorded and sent to the system administrator!
+    content "Warning! You are entering into a secured area! Your IP address, login time, and username has been recorded and sent to the system administrator!
     This service is restricted to authorized users only. All activities on this system are logged.
     Unauthorized access will be fully investigated and reported to the appropriate law enforcement agencies."
     action :create
@@ -44,6 +48,10 @@ end
 
 # Services
 service 'httpd' do
+    action [ :enable, :start ]
+end
+
+service 'syslog' do
     action [ :enable, :start ]
 end
 

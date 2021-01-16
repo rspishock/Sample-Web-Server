@@ -11,6 +11,14 @@ pacakge 'ntp' do
   service :install
 end
 
+package 'nano' do
+  service :install
+end
+
+package 'syslog' do
+  service :install
+end
+
 # files
 
 
@@ -20,5 +28,9 @@ service 'syslog' do
 end
 
 service 'ntpd' do
+  action [ :enable, :start ]
+end
+
+serice 'syslog' do
   action [ :enable, :start ]
 end
