@@ -60,3 +60,9 @@ WIP
 ### Bash
 #### firewall.sh
 A Bash script to configure the main iptables firewall ruleset for the network.
+
+#### setup.sh
+A Bash script to setup a simple directory structure, pull the git repo.
+
+#### splunk_download.sh
+A Bash script to download and install Splunk.
