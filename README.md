@@ -1,6 +1,6 @@
-# Home Servers
+# Home Servers Setup
 
-# NOTE: Recipes may appear as standalone .rb files but will be added to a cookbook in the future.
+## NOTE: Recipes may appear as standalone .rb files but will be added to a cookbook in the future.
 
 ### Description
 This repo contains Chef recipes and terraform files for the provisioning, configuration, and deployment of a simple web server setup.
@@ -21,19 +21,18 @@ I may include Chef recipes and Terraform files for redundant database servers.
     - 6 Core Intel i9 processor
     - 1TB SSD
 
-##### Software
+##### Dev Software
 - Microsoft VSCode
 - Kite
 - Oracle VirtualBox
     - Ubuntu 20.04.1 Server
 
-##### Languages
-- Bash
-- Ruby
-- Hashicorp Configuration Language (hcl)
-
-
-##### Software
+##### System Software
+- Operating Systems
+    - Ubuntu
+    - Windows Server
+- Splunk
+- Virtual Box
 - Chef
     - ChefDK version: 4.11.0
     - Chef Infra Client version: 15.14.0
@@ -43,6 +42,18 @@ I may include Chef recipes and Terraform files for redundant database servers.
     - Cookstyle version: 5.23.0
 
 - Terraform
+
+##### Splunk Indexes
+- Web Server 
+- Loadbalancer
+- Firewall
+- Workstation
+
+##### Languages
+- Bash
+- Python
+- Ruby
+- Hashicorp Configuration Language (hcl)
 
 
 ##### Github repo
