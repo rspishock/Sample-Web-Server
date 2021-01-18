@@ -62,7 +62,7 @@ I may include Chef recipes and Terraform files for redundant database servers.
 ## Recipes
 WIP
 ### Server (web)
-### myhaproxy
+### myhaproxy (loadbalancer)
 ### Server (database)
 ### Firewall (Ubuntu server using iptables)
 
